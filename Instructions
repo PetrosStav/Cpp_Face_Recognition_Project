@@ -1,0 +1,7 @@
+Press 'n' on Console to Set new Person
+Press 't' to end and train the Person
+Press 'Esc' to quit
+
+to recompile -> g++ OnlineFaceRec_BETA.cpp -I/usr/include/opencv -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_legacy -lopencv_objdetect -o OnlineFaceRec
+
+for rasp->g++ OnlineFaceRec_BETA.cpp -I/usr/include/opencv -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_legacy -lopencv_objdetect -I/home/pi/git/robidouille/raspicam_cv -L/home/pi/git/robidouille/raspicam_cv -lraspicamcv -L/home/pi/git/userland/build/lib -lmmal_core -lmmal -l mmal_util -lvcos -lbcm_host -o OnlineFaceRec
