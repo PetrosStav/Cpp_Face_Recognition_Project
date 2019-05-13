@@ -1,3 +1,15 @@
+For training:
+
+OnlineFaceRec train <train_file>
+
+For testing:
+
+OnlineFaceRec test <test_file>
+
+To run from a camera:
+
+OnlineFaceRec
+
 Press 'n' on Console to Set new Person
 Press 't' to end and train the Person
 Press 'Esc' to quit
